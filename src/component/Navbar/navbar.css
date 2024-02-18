@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Navbar-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    position: relative;
+    color: white;
+    overflow: hidden;
+
+}
+.Navbar-box{
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 10%;
+    width:250px;
+    align-items:flex-end;
+    transition: opacity 0.5s, visibility 0.5s;
+    z-index: 10;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 3em;
+    opacity: 1;
+}
+
+.Navbar-box a{
+    padding: 15%;
+
+}
+
+.Navbar-box a::after{
+    content:"";
+    position: absolute;
+    width: 4px;
+    height: 1em;
+    background: #fdfffe7c;
+    transform: translate(-50%, -50%);
+}
+
+.Navbar-box a.active::after{
+    background: #fdfffe;
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+.Navbar-box a::before{
+    content: attr(data-section);
+    position: absolute;
+    transform: translateY(-50%) translateX(-100%);
+    color:#fdfffe;
+    padding: 2px 16px;
+    pointer-events: none;
+    opacity: 0;
+    transition: all 300ms ease;
+}
+
+.Navbar-box a:hover::before{
+    opacity: 1;
+}
