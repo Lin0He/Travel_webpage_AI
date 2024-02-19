@@ -5,35 +5,62 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
+
+}
+
+.searchbar-box{
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 800;
+    text-decoration: none;
 }
 
 .searchbar-icon{
-    font-size: 2em;
-    color: #483e3c;
+    font-size: 3em;
+    color: #fdfffe;
 }
  
 
 .searchbar-button{
-    border: none;
+    display: fixed;
+    border: 4px solid #caac86;
     font-size: 2em;
-    background: transparent;
-    color: #483e3c;
     transition: 300ms ease-in-out;
+    opacity: 1;
+    background: transparent;
+    border-radius: 2em;
+    padding: 5px;
+    color: #fdfffe;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .searchbar-button:hover{
-    color:#92adc0;
-    transform: rotate(-30deg) scale(1.2);
-    
+    transform:  scale(1.1);
+    background: #caac86;
+    background-clip:content-box;
+    color: #fdfffe;
 }
 
 .input-text{
     border-style: none;
-    font-size: 1.5em;
+    font-size: 3em;
     margin-left: 0.5em;
     background-color: transparent;
     border: none;
+    border-bottom: 4px solid #caac86;
     outline: none;
+    width: 50vw;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+input::placeholder{
+    color: #fdfffe;
 }
 
 .searchbar-div{
@@ -42,8 +69,8 @@
     display: flex;
     align-items: center;
     padding: 1em;
-    border-radius: 2em;
-    background: #f6f6f6;
+    border-radius: 0.5em;
+    
 }
 
 .results{

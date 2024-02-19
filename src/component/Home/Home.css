@@ -32,21 +32,20 @@ video {
 
 .logo{
     position: fixed;
-    top: -35%;
+    top: 0%;
     height: 100vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
-    align-items: left;
-    text-align: left;
-    flex-direction: column;
-    left: 10%;
+    justify-content: space-between;
+    flex-direction:row;
+    left: 0%;
     font-family: "Merriweather", serif;
     font-style: normal;
-
 }
 
 .logo h1{
+    margin-top: 3%;
+    margin-left: 10%;
     font-size: 4em;
     color: #CAAC86;
     text-shadow: 1px 1px #657688;
@@ -54,10 +53,19 @@ video {
     font-style: italic;
 }
 
-.logo span{
-    font-size: 2em;
-    color: #FDFFFE;
-    font-weight: 200;
+
+
+.logo-icon{
+  flex-direction:row;
+  margin-right: 10%;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+icon{
+  font-size: 2em;
+  color: #CAAC86;
+  margin-inline: 0 20px;
 }
 
 .progress-bar {

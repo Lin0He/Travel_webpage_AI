@@ -1,12 +1,15 @@
 import React, { useEffect, useRef, useState} from 'react';
 import "./Home.css"
 import Forest from './../../video/In_forest_1080p.mp4';
-import Ocean from './../../video/ocean_turquoise_1080p.mp4';
+import Ocean from './../../video/Ocean_1080p.mp4';
 import SingleMan from './../../video/Singleman_drinking_dawn_1080p.mp4';
 import DrinkingTea from './../../video/Drinking_Tea_1080p.mp4';
 import Canal from './../../video/Amsterdam_boattrip_1080p.mp4';
 import Plan from './../../video/Plan_1080p.mp4';
 
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa6";
 const Home = () => {
   const [backgroundVideo, setBackgroundVideo] = useState(null);
   const [videoOpacity, setVideoOpacity] = useState(1);
@@ -80,6 +83,11 @@ const Home = () => {
       </div>
       <div className='logo'>
         <h1>Travel</h1>
+        <div className='logo-icon'>
+        <icon><FaXTwitter /></icon>
+        <icon><FaInstagram /></icon>
+        <icon><FaYoutube /></icon>
+        </div>
       </div>
     </div>
   );

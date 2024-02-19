@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import OpenAI from "openai";
 //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
 import "./SearchBar.css"
-const key = "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";
+const key = "";//"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";
 const openai = new OpenAI({apiKey:String(key), dangerouslyAllowBrowser: true });
 
 import { IoSearchSharp } from "react-icons/io5";
@@ -28,7 +28,7 @@ const SearchEngine = () => {
                 result += chunk.choices[0]?.delta?.content || "";
             }
             setResults(result); // Update the results state with the fetched data
-       
+            console.log(result);
     }
     const handleSearch = () => {
         fetchData(searchTerm);
@@ -49,8 +49,9 @@ const SearchEngine = () => {
                 placeholder="Plan your journey"
                 className='input-text'
                 />
-                <button onClick={handleSearch} className='searchbar-button'><GoPaperAirplane   /></button>
+                <button onClick={handleSearch} className='searchbar-button'>Explore</button>
                 </div>
+                
             </div>
             
             <div className='results'>
