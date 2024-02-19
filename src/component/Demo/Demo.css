@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 .demo-container{
     padding: 0;
     margin: 0;
@@ -8,14 +9,32 @@
 .demo-box{
     position: relative;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
+    top:0;
     display: flex;
+    margin-left:10%;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: flex-start;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
-.demo-box h1{
-    size: 4em;
-    color:#fff;
+.demo-box h2{
+    font-size: 5.5em;
+    color:#FDFFFE;
+    text-shadow: 0.5px 0.5px #657688;
+}
+
+.demo-box span{
+    font-size: 3.2em;
+    color:#FDFFFE;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: 0.5px 0.5px #657688;
 }

@@ -16,18 +16,14 @@ const Navbar = () => {
       if(entry.isIntersecting){
         let currentDot = document.querySelector(`.Navbar-box a[href='#${entry.target.id}']`);
         let currentPage = document.querySelector(`.${entry.target.id}-box`);
-        let previousPage;
-        if (currentPage) {
-          currentPage.style.position = 'fixed';
-          currentPage.style.top = '0px';
-          previousPage = currentPage;
-        }else{
-          if (previousPage && previousPage.style) {
-            previousPage.style.position = 'relative';
-          }
-        }
         removeActiveClass();
         currentDot.classList.add("active");
+        currentPage.style.opacity = "1"; // Fade in
+      } else {
+        let currentPage = document.querySelector(
+          `.${entry.target.id}-box`
+        );
+        currentPage.style.opacity = "0"; // Fade out
       }
     })
   };
@@ -48,10 +44,10 @@ const Navbar = () => {
     <div className='Navbar-container'>
         <div className='Navbar-box' href='#'>
           <a href='#intro' className='active' data-section="Intro"></a>
-          <a href='#demo' data-section="Demo"></a>
-          <a href='#drink' data-section="Drink"></a>
-          <a href='#eat' data-section="Eat"></a>
-          <a href='#search' data-section="Search"></a>
+          <a href='#demo' data-section="Explore"></a>
+          <a href='#drink' data-section="Flex"></a>
+          <a href='#eat' data-section="Wander"></a>
+          <a href='#searchbar' data-section="Search"></a>
           <a href='#contact' data-section="Contact"></a>
         </div>
     </div>

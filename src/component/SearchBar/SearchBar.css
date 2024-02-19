@@ -36,7 +36,7 @@
     outline: none;
 }
 
-.searchbar-box{
+.searchbar-div{
     position: relative;
     width: max-content;
     display: flex;

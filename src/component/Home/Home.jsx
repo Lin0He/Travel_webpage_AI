@@ -26,7 +26,7 @@ const Home = () => {
           case 'demo':
             selectedVideo = Canal;
             break;
-          case 'search':
+          case 'searchbar':
             selectedVideo = Ocean;
             break;
           case 'drink':
@@ -45,7 +45,7 @@ const Home = () => {
         setTimeout(() => {
           setBackgroundVideo(selectedVideo);
           setVideoOpacity(1); // Fade in the new video
-        }, 500);
+        }, 400);
       }
     });
   };
@@ -79,7 +79,7 @@ const Home = () => {
         ></video>
       </div>
       <div className='logo'>
-        <h1>Logo</h1>
+        <h1>Travel</h1>
       </div>
     </div>
   );

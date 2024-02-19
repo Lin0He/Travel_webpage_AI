@@ -38,9 +38,9 @@ const SearchEngine = () => {
 
 
     return (
-        <section className='searchbar-container' id='search'>
+        <section className='searchbar-container' id='searchbar'>
             <div className='searchbar-box'>
-                
+                <div className='searchbar-div'>
                 <span className='searchbar-icon'><IoSearchSharp /></span>
                 <input
                 type="text"
@@ -50,6 +50,7 @@ const SearchEngine = () => {
                 className='input-text'
                 />
                 <button onClick={handleSearch} className='searchbar-button'><GoPaperAirplane   /></button>
+                </div>
             </div>
             
             <div className='results'>
