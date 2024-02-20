@@ -69,7 +69,7 @@ const Home = () => {
         setTimeout(() => {
           setBackgroundVideo(selectedVideo);
           setVideoOpacity(1); // Fade in the new video
-        }, 400);
+        }, 100);
       }
     });
   };
