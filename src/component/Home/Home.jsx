@@ -39,7 +39,7 @@ const Home = () => {
             selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/Drinking_Tea_1080p.mp4";
             break;
           case 'eat':
-            selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/Plan_1080p.mp4";
+            selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/Singleman_drinking_dawn_1080p.mp4";
             break;
           case 'contact':
             selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/Plan_1080p.mp4";
@@ -69,7 +69,7 @@ const Home = () => {
         setTimeout(() => {
           setBackgroundVideo(selectedVideo);
           setVideoOpacity(1); // Fade in the new video
-        }, 100);
+        }, 400);
       }
     });
   };
