@@ -7,7 +7,7 @@ import "./Home.css"
 // import Canal from './../../video/Amsterdam_boattrip_1080p.mp4';
 // import Plan from './../../video/Plan_1080p.mp4';
 
-import Forest from 'https://media.githubusercontent.com/media/Lin0He/Travel_webpage_AI/blob/main/src/video/In_forest_1080p.mp4';
+import Forest from 'https://media.githubusercontent.com/media/Lin0He/Travel_webpage_AI/main/src/video/In_forest_1080p.mp4';
 import Ocean from './../../video/Ocean_1080p.mp4';
 import SingleMan from './../../video/Singleman_drinking_dawn_1080p.mp4';
 import DrinkingTea from './../../video/Drinking_Tea_1080p.mp4';
