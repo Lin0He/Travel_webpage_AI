@@ -27,23 +27,41 @@ const Home = () => {
         let selectedVideo;
         switch (videoId) {
           case 'intro':
-            selectedVideo = Forest;
+            selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/In_forest_1080p.mp4";
             break;
           case 'demo':
-            selectedVideo = Canal;
+            selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/Amsterdam_boattrip_1080p.mp4";
             break;
           case 'searchbar':
-            selectedVideo = Ocean;
+            selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/Ocean_1080p.mp4";
             break;
           case 'drink':
-            selectedVideo = DrinkingTea;
+            selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/Drinking_Tea_1080p.mp4";
             break;
           case 'eat':
-            selectedVideo = SingleMan;
+            selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/Plan_1080p.mp4";
             break;
           case 'contact':
-            selectedVideo = Plan;
+            selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/Plan_1080p.mp4";
             break;
+          // case 'intro':
+          //   selectedVideo = Forest;
+          //   break;
+          // case 'demo':
+          //   selectedVideo = Canal;
+          //   break;
+          // case 'searchbar':
+          //   selectedVideo = Ocean;
+          //   break;
+          // case 'drink':
+          //   selectedVideo = DrinkingTea;
+          //   break;
+          // case 'eat':
+          //   selectedVideo = SingleMan;
+          //   break;
+          // case 'contact':
+          //   selectedVideo = Plan;
+          //   break;
         }
         setActivePage(videoId);
         setVideoOpacity(0);
