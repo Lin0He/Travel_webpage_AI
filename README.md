@@ -14,4 +14,10 @@ Please check the complete web page deployment at: https://lin0he.github.io/Trave
   remain the API result console log</br>
   todo: write the route of the response page of the search bar, and tune OpenAI API.
 
-  To deploy the project, you need to input your own OpenAI key. You can add in the file "src/component/SearchBar/SearchEngine.jsx" and find the const key. Or you can create a .env file in the root of the project.
+To deploy the project, you need to input your own OpenAI key. You can add in the file "src/component/SearchBar/SearchEngine.jsx" and find the const key. Or you can create a .env file in the root of the project.
+After download and unzip the file:
+```
+cd Travel_webpage_AI
+npm install
+npm run dev
+```
