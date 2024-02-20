@@ -1,18 +1,14 @@
 import React, { useEffect, useRef, useState} from 'react';
 import "./Home.css"
-// import Forest from './../../video/In_forest_1080p.mp4';
-// import Ocean from './../../video/Ocean_1080p.mp4';
-// import SingleMan from './../../video/Singleman_drinking_dawn_1080p.mp4';
-// import DrinkingTea from './../../video/Drinking_Tea_1080p.mp4';
-// import Canal from './../../video/Amsterdam_boattrip_1080p.mp4';
-// import Plan from './../../video/Plan_1080p.mp4';
+import Forest from './../../video/In_forest_1080p.mp4';
+import Ocean from './../../video/Ocean_1080p.mp4';
+import SingleMan from './../../video/Singleman_drinking_dawn_1080p.mp4';
+import DrinkingTea from './../../video/Drinking_Tea_1080p.mp4';
+import Canal from './../../video/Amsterdam_boattrip_1080p.mp4';
+import Plan from './../../video/Plan_1080p.mp4';
 
-import Forest from 'https://media.githubusercontent.com/media/Lin0He/Travel_webpage_AI/main/src/video/In_forest_1080p.mp4';
-// import Ocean from './../../video/Ocean_1080p.mp4';
-// import SingleMan from './../../video/Singleman_drinking_dawn_1080p.mp4';
-// import DrinkingTea from './../../video/Drinking_Tea_1080p.mp4';
-// import Canal from './../../video/Amsterdam_boattrip_1080p.mp4';
-// import Plan from './../../video/Plan_1080p.mp4';
+//import Forest from 'https://media.githubusercontent.com/media/Lin0He/Travel_webpage_AI/main/src/video/In_forest_1080p.mp4';
+
 
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
@@ -31,41 +27,23 @@ const Home = () => {
         let selectedVideo;
         switch (videoId) {
           case 'intro':
-            selectedVideo = 'https://media.githubusercontent.com/media/Lin0He/Travel_webpage_AI/main/src/video/In_forest_1080p.mp4';
+            selectedVideo = Forest;
             break;
           case 'demo':
-            selectedVideo = 'https://media.githubusercontent.com/media/Lin0He/Travel_webpage_AI/main/src/video/Amsterdam_boattrip_1080p.mp4';
+            selectedVideo = Canal;
             break;
           case 'searchbar':
-            selectedVideo = 'https://media.githubusercontent.com/media/Lin0He/Travel_webpage_AI/main/src/video/Ocean_1080p.mp4';
+            selectedVideo = Ocean;
             break;
           case 'drink':
-            selectedVideo = 'https://media.githubusercontent.com/media/Lin0He/Travel_webpage_AI/main/src/video/Drinking_Tea_1080p.mp4';
+            selectedVideo = DrinkingTea;
             break;
           case 'eat':
-            selectedVideo = 'https://media.githubusercontent.com/media/Lin0He/Travel_webpage_AI/main/src/video/Singleman_drinking_dawn_1080p.mp4';
+            selectedVideo = SingleMan;
             break;
           case 'contact':
-            selectedVideo = 'https://media.githubusercontent.com/media/Lin0He/Travel_webpage_AI/main/src/video/Plan_1080p.mp4';
+            selectedVideo = Plan;
             break;
-          //   case 'intro':
-          //   selectedVideo = Forest;
-          //   break;
-          // case 'demo':
-          //   selectedVideo = Canal;
-          //   break;
-          // case 'searchbar':
-          //   selectedVideo = Ocean;
-          //   break;
-          // case 'drink':
-          //   selectedVideo = DrinkingTea;
-          //   break;
-          // case 'eat':
-          //   selectedVideo = SingleMan;
-          //   break;
-          // case 'contact':
-          //   selectedVideo = Plan;
-          //   break;
         }
         setActivePage(videoId);
         setVideoOpacity(0);
