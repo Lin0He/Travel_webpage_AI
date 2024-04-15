@@ -44,24 +44,6 @@ const Home = () => {
           case 'contact':
             selectedVideo = "https://github.com/Lin0He/Travel_webpage_AI/raw/main/src/video/Plan_1080p.mp4";
             break;
-          // case 'intro':
-          //   selectedVideo = Forest;
-          //   break;
-          // case 'demo':
-          //   selectedVideo = Canal;
-          //   break;
-          // case 'searchbar':
-          //   selectedVideo = Ocean;
-          //   break;
-          // case 'drink':
-          //   selectedVideo = DrinkingTea;
-          //   break;
-          // case 'eat':
-          //   selectedVideo = SingleMan;
-          //   break;
-          // case 'contact':
-          //   selectedVideo = Plan;
-          //   break;
         }
         setActivePage(videoId);
         setVideoOpacity(0);

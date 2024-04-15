@@ -12,32 +12,6 @@ import "./App.css"
 
 function App() {
 
-  useEffect(() => {
-
-    const addActiveClass = (entries, observer) => {
-      entries.forEach(entry => {
-        if(entry.isIntersecting){
-          entry.target.classList.add("section-fade-in");
-          entry.target.classList.remove("section-fade-out");
-        }else{
-          entry.target.classList.add("section-fade-out");
-          entry.target.classList.remove("section-fade-in");
-        }
-      })
-    };
-  
-    const options ={
-      threshold:0.1,
-    };
-    const observer = new IntersectionObserver(addActiveClass, options);
-    const sections = document.querySelectorAll("section");
-  
-    sections.forEach(section => {
-      observer.observe(section);
-    });
-    return () => observer.disconnect();
-    }, []);
-
   return(
     <html>
         <Navbar/>

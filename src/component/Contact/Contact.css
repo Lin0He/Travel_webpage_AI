@@ -75,7 +75,7 @@ textarea::placeholder{
     color:#483e3c;
 }
 
-button{
+.button-main{
     border: 4px solid #caac86;
     font-size: 2em;
     transition: 300ms ease-in-out;
@@ -90,7 +90,7 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+.button-main:hover{
     transform:  scale(1.1);
     background: #caac86;
     background-clip:content-box;

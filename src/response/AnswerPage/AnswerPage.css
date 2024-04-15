@@ -1,0 +1,90 @@
+
+
+.top-row, .middle-row, .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.middle-row{
+    width: 50%;
+    margin-top: -240px;
+
+}
+
+.panel{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+}
+
+.schedule{
+    height: 340px;
+    width: calc(45vw - 30px);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-right: 30px;
+    border-radius: 20px;
+    background-color: #a0e1eb63;
+    position: relative;
+}
+
+.chatbot{
+    height: 600px;
+    width: calc(45vw - 30px);
+    align-content: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 30px;
+    margin-right: 8%;
+    border-radius: 20px;
+    background-color: #e1d7f06c;
+}
+
+.calander{
+    height: 220px;
+    width: calc(20vw - 20px);
+    align-content: center;
+    justify-content: center;
+    margin-top: 0%;
+    margin-left: 16%;
+    border-radius: 20px;
+    background-color: #fff4a57e;
+}
+
+.now{
+    height: 220px;
+    width: calc(20vw - 20px);
+    align-content: center;
+    justify-content: center;
+    margin-top: 0%;
+    margin-right: 30px;
+    border-radius: 20px;
+    background-color: #ffdada6e;
+}
+
+.extraction{
+    height: 300px;
+    width: calc(90vw);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 20px;
+    background-color: #b9ebd75b; 
+}
+
+
+.schedule-expand-icon {
+    position: absolute;  
+    top: 10px; 
+    right: 10px;  
+    z-index: 10; 
+}

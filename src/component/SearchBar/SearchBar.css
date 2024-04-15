@@ -5,7 +5,7 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-
+    
 }
 
 .searchbar-box{
@@ -49,6 +49,7 @@
     border-style: none;
     font-size: 3em;
     margin-left: 0.5em;
+    color: #483e3c;
     background-color: transparent;
     border: none;
     border-bottom: 4px solid #caac86;
