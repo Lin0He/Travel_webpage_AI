@@ -8,6 +8,11 @@ The page fully considers the atheistic of nature and life, making the screen lik
 
 
 Please check the complete web page deployment at: https://lin0he.github.io/Travel_webpage_AI/ , and due to the GitHub page limitation of video playing, there will be a delay when switching the pages.
+- 22/04/2024 version 1.1 </br>
+  start backend construction </br>
+  add the framework of backend </br>
+  will continue this week </br>
+  ![Screenshot 2024-04-22 010719](https://github.com/Lin0He/Travel_webpage_AI/assets/104896569/8e113152-37a3-4f1f-ab2e-1a24cd4accb4)
 
 - 20/02/2024 version 1.0 </br>
   establish the main page</br>
