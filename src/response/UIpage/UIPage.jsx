@@ -1,17 +1,17 @@
 import React, {useEffect, useState} from 'react';
-import "./AnswerPage.css";
+import "./UIPage.css";
 import { GoArrowUpRight } from "react-icons/go";
-
-const AnswerPage = () => {
+import CalendarOut from '../Calendar/Calendar';
+const UIPage = () => {
 
   return (
     <section className='panel'>
       <div class="top-row">
         <div className='schedule'>
           <div className='schedule-content'>
-                Schedule event + time + location
+            <CalendarOut/>
           </div>
-          <div className='schedule-expand-icon'><GoArrowUpRight /></div>
+          {/* <div className='schedule-expand-icon'><GoArrowUpRight /></div> */}
         </div>
         <div className='chatbot'>
           Chatbot
@@ -34,4 +34,4 @@ const AnswerPage = () => {
   )
 }
 
-export default AnswerPage
+export default UIPage

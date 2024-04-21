@@ -1,9 +1,12 @@
 import React, {useEffect} from 'react';
-import AnswerPage from "./response/AnswerPage/AnswerPage"
-import Test from './response/AnswerPage/test';
+import UIpage from "./response/UIpage/UIPage";
+import BoundedLayout from "./response/drag";
+
 function Response(){
   return (
-    <AnswerPage/>
+    
+    <UIpage/>
+    
   )
 }
 
