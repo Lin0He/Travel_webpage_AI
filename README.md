@@ -23,3 +23,10 @@ cd Travel_webpage_AI
 npm install
 npm run dev
 ```
+
+To initiate the OpenAI API backend, please follow:
+```
+cd chatbot-backend
+npm install
+npm start
+```
