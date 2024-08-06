@@ -8,9 +8,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router basename="/Travel_webpage_AI">
       <Routes>
-       <Route path="/response" element={<Response/>}/>
         <Route path="/*" element={<App />}/> 
-       {/* <Route path="/*" element={<Response />}/> */}
+        <Route path="/response" element={<Response />}/>
       </Routes>
     </Router>
   </React.StrictMode>,

@@ -1,12 +1,11 @@
 import React, {useEffect} from 'react';
-import UIpage from "./response/UIpage/UIPage";
-import BoundedLayout from "./response/drag";
+import MainBot from './AIBot/MainBot';
 
 function Response(){
   return (
-    
-    <UIpage/>
-    
+    <div>
+      <MainBot/>
+    </div>
   )
 }
 

@@ -40,7 +40,8 @@ video {
     flex-direction:row;
     left: 0%;
     font-family: "Merriweather", serif;
-    font-style: normal;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .logo h1{
@@ -50,7 +51,6 @@ video {
     color: #CAAC86;
     text-shadow: 1px 1px #657688;
     font-weight: 700;
-    font-style: italic;
 }
 
 

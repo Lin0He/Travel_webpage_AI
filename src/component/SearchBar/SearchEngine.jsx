@@ -11,17 +11,14 @@ import { IoSearchSharp } from "react-icons/io5";
 const SearchEngine = () => {
 
     const [searchTerm, setSearchTerm] = useState(''); // State for the search term input by the user
-
-
     const navigate = useNavigate();
 
     const handleInputChange = (e) => {
         setSearchTerm(e.target.value);
     };
 
-    
     const handleSearch = () => {
-        navigate(`/response`);
+        navigate(`/response?query=${encodeURIComponent(searchTerm)}`);
     };
 
 
@@ -39,12 +36,7 @@ const SearchEngine = () => {
                 />
                 <button onClick={handleSearch} className='searchbar-button'>Explore</button>
                 </div>
-                
             </div>
-            
-            {/* <div className='results'>
-                {results ? <p>{results}</p> : <p>No results</p>} 
-            </div> */}
         </section>
     )
 }
