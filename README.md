@@ -7,10 +7,10 @@ The page fully considers the atheistic of nature and life, making the screen lik
 ![Screenshot 2024-02-20 144400](https://github.com/Lin0He/Travel_webpage_AI/assets/104896569/4f89e8c7-d9a5-447b-b914-4054adf9dcd6)
 
 
-Please check the complete web page deployment at: https://lin0he.github.io/Travel_webpage_AI/ , and due to the GitHub page limitation of video playing, there will be a delay when switching the pages.
+Please check the complete web page deployment at: https://lin0he.github.io/Travel_webpage_AI/ (not useful now due to API key lack, please download the file and try) , and due to the GitHub page limitation of video playing, there will be a delay when switching the pages.
 - 22/04/2024 version 1.1 </br>
  Chatbot added </br>
-
+ 
 - 20/02/2024 version 1.0 </br>
   establish the main page</br>
   remain the API result console log</br>
