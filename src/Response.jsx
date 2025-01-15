@@ -4,7 +4,7 @@ import MainBot from './AIBot/MainBot';
 function Response(){
   return (
     <div>
-      <MainBot/>
+      //<MainBot/>
     </div>
   )
 }

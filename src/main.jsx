@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Router basename="/Travel_webpage_AI">
       <Routes>
         <Route path="/*" element={<App />}/> 
-        <Route path="/response" element={<Response />}/>
+        //<Route path="/response" element={<Response />}/>
       </Routes>
     </Router>
   </React.StrictMode>,
